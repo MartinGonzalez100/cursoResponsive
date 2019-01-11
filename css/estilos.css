@@ -399,27 +399,32 @@ box-shadow: 4px 7px 16px 0px rgba(0,0,0,0.75);
   .header{
     display: block;
     height: auto;
-    
   }
+
   .header ol{
     display: block;
   }
+
   .menu ol{
     height: auto;
+    padding: 0;
   } 
+
   .menu li{
     height: 40px;
     text-align: center;
   }
+
   .menu a{
     display: block;
   }
-  .header ol li{
-    height: 50px;
-    text-align: center;
-  }
+  
   .logo{
     text-align: center;
+    /* height: 49px; */
+  }
+  .logo img{
+    height: 70px;
   }
 }
 
